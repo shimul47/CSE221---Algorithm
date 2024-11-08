@@ -8,8 +8,8 @@ def bubbleSort(arr):
         if flag == False: 
             break
 
-input_file = open("E:\\CSE221\\input2.txt", "r")
-output_file = open("E:\\CSE221\\output2.txt", "w")
+input_file = open("E:\CSE221\Lab_1\input2.txt", "r")
+output_file = open("E:\CSE221\Lab_1\output2.txt", "w")
 
 n = int(input_file.readline())
 arr = input_file.readline().split()

@@ -14,8 +14,8 @@ def insertionSort(schedule):
   return schedule
 
 
-input_file = open("E:\CSE221\input4.txt","r")
-output_file = open("E:\CSE221\output4.txt","w")
+input_file = open("Lab_1/input4.txt","r")
+output_file = open("E:\CSE221\Lab_1\output4.txt","w")
 
 n = int(input_file.readline())
 

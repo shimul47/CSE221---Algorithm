@@ -8,8 +8,8 @@ def insertion(arr):
         arr[j+1] = key
     return arr
         
-input_file = open("E:\CSE221\input3.txt","r")
-output_file = open("E:\CSE221\output3.txt","w")
+input_file = open("E:\CSE221\Lab_1\input3.txt","r")
+output_file = open("E:\CSE221\Lab_1\output3.txt","w")
 n = int(input_file.readline())
 id = list(map(int,input_file.readline().split()))
 number = list(map(int,input_file.readline().split()))
