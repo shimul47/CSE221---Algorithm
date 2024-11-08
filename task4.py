@@ -30,7 +30,7 @@ for i in range(n):
   #print(schedule)
 
 sortedSchedule = insertionSort(schedule)
-print(sortedSchedule)
+#print(sortedSchedule)
 for i in range(n):
   output_file.write(f"{sortedSchedule[i][0]} will departure for {sortedSchedule[i][1]} at {sortedSchedule[i][2]}\n")
 output_file.close()
