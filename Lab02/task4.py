@@ -31,10 +31,11 @@ n = list(map(int,f.readline().split()))
 task = n[0]
 people = n[1]
 arr = []
+
 for i in range(task):
     arr.append(list(map(int,f.readline().split())))
 arr = merge_sort(arr)
-print(arr)
+
 f.close()
 f2.close()
 
