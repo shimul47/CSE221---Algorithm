@@ -11,8 +11,7 @@ def countPair(arr):
     left, count_left = countPair(arr[:mid])
     right, count_right = countPair(arr[mid:])
     sorted_arr, count = CheckAndMerge(left, right)
-    total_count =  count
-    return sorted_arr, total_count
+    return sorted_arr, count
 
 def CheckAndMerge(left, right):          
     merged = []
